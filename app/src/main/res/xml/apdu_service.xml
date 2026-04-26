@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  HCE service that emulates an NFC Forum Tag Type 4 with a single NDEF
+  message. AID D2760000850101 is the NFC Forum-assigned NDEF application AID
+  (NFC Forum Type 4 Tag Operation Specification, sec. 5.4.1).
+
+  Category "other" is correct: this is not a payment service. requireDeviceUnlock
+  is true so we never share user-authored payloads (Wi-Fi passwords, contact
+  info, links) while the device is locked.
+-->
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/app_name"
+    android:requireDeviceUnlock="true">
+    <aid-group
+        android:description="@string/app_name"
+        android:category="other">
+        <aid-filter android:name="D2760000850101" />
+    </aid-group>
+</host-apdu-service>

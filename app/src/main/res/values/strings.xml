@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NFC Manager</string>
+
+    <string name="nfc_disabled_title">NFC is disabled</string>
+    <string name="nfc_disabled_message">Enable NFC in system settings.</string>
+    <string name="home_nfc_off_title">NFC is turned off</string>
+    <string name="home_nfc_off_subtitle">Turn it on in settings.</string>
+    <string name="home_nfc_unavailable_title">NFC unavailable</string>
+    <string name="home_nfc_unavailable_subtitle">This device does not support NFC.</string>
+    <string name="home_nfc_idle_title">Tap a tag to read</string>
+    <string name="home_nfc_idle_subtitle">Hold a tag near the top edge of your phone.</string>
+    <string name="home_nfc_scanning_hint">Listening for nearby tags…</string>
+    <string name="open_settings">Open Settings</string>
+
+    <string name="scan_idle">Bring a tag near the device</string>
+    <string name="scan_ready_title">Ready to Scan</string>
+    <string name="scan_ready_subtitle">Hold your device near the NFC tag</string>
+    <string name="scan_cancel">Cancel</string>
+    <string name="scan_close">Close</string>
+    <string name="scan_read_tag">Read Tag</string>
+
+    <string name="nfc_tag_detected_title">NFC Tag Detected</string>
+    <string name="nfc_tag_type">Tag type</string>
+    <string name="nfc_technologies">Technologies</string>
+    <string name="nfc_serial">Serial number (UID)</string>
+    <string name="nfc_writable">Writable</string>
+    <string name="nfc_mapping_name_label">Mapping name</string>
+    <string name="nfc_action_type_label">Action type</string>
+    <string name="nfc_content_section">Content</string>
+    <string name="nfc_continue">Continue</string>
+    <string name="nfc_cancel">Cancel</string>
+    <string name="nfc_close">Close</string>
+
+    <string name="tag_copied">Copied to clipboard</string>
+    <string name="wifi_suggestion_added">Wi-Fi added. Look for the network in Settings.</string>
+    <string name="blocked_unsafe_url">Blocked: unsafe URL scheme</string>
+
+    <string name="home_title">Home</string>
+    <string name="write_title">Write</string>
+    <string name="actions_title">Actions</string>
+    <string name="settings_title">Settings</string>
+
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+</resources>

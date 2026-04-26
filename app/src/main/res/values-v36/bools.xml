@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Android 16 (API 36) override: opt into the predictive back system.
+
+      With this on, Navigation Compose 2.8+ wires its popEnter / popExit
+      transitions to the OnBackInvokedCallback progress stream, so the
+      Create Action -> Actions slide follows the user's swipe in real
+      time. Commit / cancel is decided by the platform at roughly 50%
+      gesture progress (the system threshold; not app-tunable).
+    -->
+    <bool name="enable_predictive_back">true</bool>
+</resources>
