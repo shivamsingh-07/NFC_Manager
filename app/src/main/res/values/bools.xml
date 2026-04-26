@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Per-API gate for Android's predictive back gesture. Read by the
+      `android:enableOnBackInvokedCallback` manifest attribute on the
+      <application> element.
+
+      Default (API 31–35 / Android 12–15): false.
+        - The framework never registers our predictive callback chain.
+        - System back stays non-predictive: no activity-scale preview,
+          no swipe-progress animation. The gesture commits on release.
+        - Navigation Compose still runs its popEnter/popExit transitions
+          on commit, so the slide between Create Action and Actions
+          plays exactly as on Android 16, just non-predictive.
+
+      Override (API 36+ / Android 16): see values-v36/bools.xml.
+    -->
+    <bool name="enable_predictive_back">false</bool>
+</resources>
